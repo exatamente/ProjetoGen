@@ -2,8 +2,7 @@ package projetogen;
 
 import static projetogen.AnsiCodes.BRANCO_BK;
 import static projetogen.AnsiCodes.PRETO_BK;
-    import java.io.IOException;
-import java.util.Scanner;
+
 
 
 public class Cabeca 
@@ -50,14 +49,7 @@ public class Cabeca
     CelulasNasais nariz = new CelulasNasais();
     CelulasBoca boca =  new CelulasBoca();
    
-    
 
-
-
-
-    
-    
-    
     
     public void DesenhaCabeca()
     {      
@@ -97,7 +89,7 @@ public class Cabeca
                 }
                 System.out.println(); 
             }
-
+      
         }
         
     }
